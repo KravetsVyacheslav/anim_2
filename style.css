@@ -161,7 +161,7 @@ header {
 .ul_blok {
     display: flex;
     justify-content: space-evenly;
-    height: 120px;
+    height: 230px;
 }
 .ul_blok_2 {
     display: flex;
@@ -234,6 +234,15 @@ h2 {
 .fond {
     background-image: url(../img/Work.png);
     height: 450px;
+    background-repeat: no-repeat;
+}
+.img_container {
+    display: flex;
+    background-color: rgb(246, 245, 250);
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
 }
 header {
     position: fixed;
